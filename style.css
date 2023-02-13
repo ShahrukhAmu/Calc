@@ -1,0 +1,96 @@
+#cmain{
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 710px;
+    border: 2px solid rgba(235, 210, 191, 0.945);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 1px rgb(223, 221, 221);
+
+}
+
+#uhalf{
+    padding-top:180px;
+}
+
+hr{
+    width: 93%; 
+    border: 1px solid rgb(243, 241, 241); 
+    border-radius: 1px;
+}
+
+#exp{
+    text-align: right;
+    font-size: 27px;
+    align-items: flex-end;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    text-shadow:2px 2px rgb(240, 240, 240);
+}
+
+#result{
+    bottom: 555px;
+    right: 720px;
+    align-items: flex-start;
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: lighter;
+}
+
+#bhalf{
+    padding-top:10px;
+    position: inherit;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(51, 46, 46);
+}
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    margin: 3px;
+    width: 21%;
+    padding-top:11px;
+    /* padding-left: 10px; */
+    padding-bottom: 2px;
+    border: 1px solid rgb(240, 239, 237);
+    border-radius: 35px;
+    color: rgb(80, 77, 77);
+    
+}
+
+.button:hover{
+    background-color: rgb(243, 242, 242);
+    box-shadow: 2px 1px rgb(223, 221, 221);
+
+}
+
+.button:active{
+    color: rgb(0, 0, 0);
+}
+
+
+.function{
+    color: rgb(241, 121, 8);
+}
+
+#equal{
+    color: white;
+    background-color: rgb(241, 121, 8);
+    border-radius: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+#equal:active{
+    background-color: rgb(230, 108, 9);
+    color:black;
+}
+
+#prev{
+    color: rgb(55 60 60);
+}
